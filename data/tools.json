@@ -1,0 +1,8 @@
+{
+  "01": {"name": "Information Gathering", "cmd": "apt install nmap whois dnsutils -y"},
+  "02": {"name": "Vulnerability Analysis", "cmd": "apt install nikto -y"},
+  "03": {"name": "Web Hacking", "cmd": "apt install sqlmap -y"},
+  "05": {"name": "Password Attacks", "cmd": "apt install john wordlists -y"},
+  "11": {"name": "Forensic Tools", "cmd": "apt install binwalk foremost -y"},
+  "14": {"name": "Termux Utility", "cmd": "pkg install proot-distro git wget -y"}
+}
