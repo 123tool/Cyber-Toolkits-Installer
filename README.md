@@ -2,41 +2,41 @@
 
 ## 🛠️ Cara Instalasi
 
-### Di Linux (Ubuntu/Xubuntu/Debian)
+## Di Linux (Ubuntu/Xubuntu/Debian)
 Buka terminal kamu dan ketik :
 
-# Update sistem
+1. Update sistem
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-# Install Python & Git
+2. Install Python & Git
 ```
 sudo apt install python3 python3-pip git -y
 ```
-# Clone repository
+3. Clone repository
 ```
 git clone https://github.com/123tool/Cyber-Toolkits-Installer.git
 cd Cyber-Toolkits-Installer
 ```
-# Install library pendukung
+4. Install library pendukung
 ```
 pip3 install -r requirements.txt
 ```
-# Jalankan
+5. Jalankan
 ```
 python3 app.py
 ```
 
 ### Di Termux (Android)
-# Update
+1. Update
 ```
 pkg update && pkg upgrade -y
 ```
-# Install Python & Git
+2. Install Python & Git
 ```
 pkg install python git -y
 ```
-# Clone & Run
+3. Clone & Run
 ```
 git clone https://github.com/123tool/Cyber-Toolkits-Installer.git
 cd Cyber-Toolkits-Installer
